@@ -11,6 +11,14 @@ export default {
   name: 'App',
   components: {
     Counter
+  },
+  mounted(){
+    this.firstConsole()
+  },
+  methods:{
+    firstConsole(){
+      console.log("Hello world!")
+    }
   }
 };
 </script>
